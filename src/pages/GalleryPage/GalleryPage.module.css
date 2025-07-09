@@ -1,0 +1,22 @@
+.container {
+    height: 80vh;
+    margin: 2%;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.card {
+    outline: 1px solid #e8e8e8;
+    padding: 10px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    opacity: 0.5;
+}
